@@ -6,8 +6,8 @@ import { basePath } from '@/utils/var'
 export type LogoStyle = 'default' | 'monochromeWhite'
 
 export const logoPathMap: Record<LogoStyle, string> = {
-  default: '/logo/mw-logo.png',
-  monochromeWhite: '/logo/mw-logo.png',
+  default: '/logo/e-handwerk-logo.jpg',
+  monochromeWhite: '/logo/e-handwerk-logo.jpg',
 }
 
 export type LogoSize = 'large' | 'medium' | 'small'
@@ -36,7 +36,7 @@ const DifyLogo: FC<DifyLogoProps> = ({
     <img
       src={`${basePath}${logoPathMap[themedStyle]}`}
       className={classNames('block object-contain', logoSizeMap[size], className)}
-      alt='MediaWorks logo'
+      alt='E-Handwerk logo'
     />
   )
 }

@@ -20,7 +20,7 @@ const ForgotPassword = () => {
         <Header />
         {token ? <ChangePasswordForm /> : <ForgotPasswordForm />}
         {!systemFeatures.branding.enabled && <div className='px-8 py-6 text-sm font-normal text-text-tertiary'>
-          © {new Date().getFullYear()} MediaWorks. All rights reserved.
+          © {new Date().getFullYear()} E-Handwerk. All rights reserved.
         </div>}
       </div>
     </div>

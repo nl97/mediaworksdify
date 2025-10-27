@@ -1,5 +1,5 @@
 const translation = {
-  pageTitle: 'Log in to MediaWorks',
+  pageTitle: 'Log in to E-Handwerk',
   welcome: '👋 Welcome! Please log in to get started.',
   email: 'Email address',
   emailPlaceholder: 'Your email',

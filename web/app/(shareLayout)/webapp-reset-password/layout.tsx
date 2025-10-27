@@ -22,7 +22,7 @@ export default function SignInLayout({ children }: any) {
           </div>
         </div>
         {!systemFeatures.branding.enabled && <div className='system-xs-regular px-8 py-6 text-text-tertiary'>
-          © {new Date().getFullYear()} MediaWorks. All rights reserved.
+          © {new Date().getFullYear()} E-Handwerk. All rights reserved.
         </div>}
       </div>
     </div>
