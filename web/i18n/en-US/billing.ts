@@ -100,7 +100,7 @@ const translation = {
     messageRequest: {
       title: '{{count,number}} message credits',
       titlePerMonth: '{{count,number}} message credits/month',
-      tooltip: 'Message credits are provided to help you easily try out different OpenAI models. Credits are consumed based on the model type. Once they're used up, you can switch to your own OpenAI API key.',
+      tooltip: 'Message credits are provided to help you easily try out different OpenAI models. Credits are consumed based on the model type. Once theyre used up, you can switch to your own OpenAI API key.',
     },
     annotatedResponse: {
       title: '{{count,number}} Annotation Quota Limits',
